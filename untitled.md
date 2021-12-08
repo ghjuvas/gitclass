@@ -167,7 +167,7 @@ log<sub>2</sub>1000 < log<sub>2</sub>1024 = 10 – количество вопр
 	def can_make(d): #O(n)
     	buy_bill = 0
     	for i in range(len(ing)):
-        	buy_bill = max(0, recipe[i]*d - ing[i]) * costs[i]
+        	    buy_bill = max(0, recipe[i]*d - ing[i]) * costs[i]
     	return buy_bill <= N
 
 
