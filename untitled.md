@@ -136,7 +136,7 @@ log<sub>2</sub>1000 < log<sub>2</sub>1024 = 10 – количество вопр
 	def slow_sol2(): # O(n)
     	d = 1
     	while can_make(d):
-        	d += 1
+        	    d += 1
     	return d - 1
 
 	def fast_sol2(): #O(log(n))
@@ -147,9 +147,9 @@ log<sub>2</sub>1000 < log<sub>2</sub>1024 = 10 – количество вопр
     	while r - l > 1:
         	m = r + l // 2
         	if can_make(m):
-                l = m
+                    l = m
         	else:
-                r = m
+                    r = m
     	return l 
 
 	# Бургеры
